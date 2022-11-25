@@ -25,7 +25,7 @@
     1. server name -> **pg** (или любой другой по желанию)
 2. На вкладке `Connection`:
     1. host -> **host.docker.internal**
-    2. port -> **55000**
+    2. port -> **5432**
     3. username -> **postgres**
     4. password -> **admin**
 3. Нажмите кнопку `Save`
