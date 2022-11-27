@@ -1,0 +1,25 @@
+package ru.codemika.springdb.entity;
+
+
+
+import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.Column;
+
+@Entity
+@Table(schema = "public", name = "user")
+public class UserEntity {
+    @Id
+    private int id;
+    @Column(name = "first name")
+    private String name;
+    @Column(name = "Last name")
+    private String surname;
+    @Column(name = "age")
+    private int age;
+    @Column(name = "high")
+    private int high;
+    @Column(name = "eyes")
+    private String color;
+}
