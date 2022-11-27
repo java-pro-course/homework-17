@@ -11,15 +11,15 @@ import jakarta.persistence.Column;
 @Table(schema = "public", name = "user")
 public class UserEntity {
     @Id
-    private int id;
+    private Long id;
     @Column(name = "first name")
     private String name;
     @Column(name = "Last name")
     private String surname;
     @Column(name = "age")
-    private int age;
+    private String age;
     @Column(name = "high")
-    private int high;
+    private String high;
     @Column(name = "eyes")
     private String color;
 }
