@@ -11,7 +11,7 @@
 После этого на `dashboard` в докере надо просто запустить `postgres` и `pgadmin4`. 
 
 > У некоторых из вас не установился визуализатор `Docker` - ничего страшного. Надо просто руками запустить `PostgreSql`.
-> Команда: `docker run -d -p 55000:55000 -e POSTGRES_PASSWORD=admin postgres`
+> Команда: `docker run -d -e POSTGRES_PASSWORD=admin postgres`
 
 После запуска в терминале надо выполнить команду:
 > docker run -p 5050:80 -e 'PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org' -e 'PGADMIN_DEFAULT_PASSWORD=admin' -d --name pgadmin4 dpage/pgadmin4
