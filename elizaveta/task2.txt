@@ -1,0 +1,11 @@
+CREATE TABLE public.user {
+	id serial,
+	name text,
+	surname text,
+	age  bigint
+};
+
+insert into public.user (name, surname, age) values ('Елизавета', 'Угодина',21 );
+select * from public.user;
+
+
