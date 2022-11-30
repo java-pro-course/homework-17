@@ -1,0 +1,16 @@
+CREATE TABLE public.user
+(
+ id serial,
+ name text,
+ surname text,
+ age bigint,
+);
+
+ALTER TABLE IF EXISTS public.user
+    OWNER to postgres;
+
+insert into
+public.user (name, surname, age)
+values ('Alexander', 'Koritskiy', 21);
+
+select * from public.user;
