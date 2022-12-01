@@ -1,0 +1,5 @@
+insert into
+object.user (name, surname, age)
+values ('Roman', 'Kazakov', 15);
+
+select * from object.user;
