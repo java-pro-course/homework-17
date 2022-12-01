@@ -1,0 +1,10 @@
+
+CREATE TABLE object.user { 
+	id serial,
+	name Text,
+	surname text,
+	age int
+}
+
+ALTER TABLE IF EXIST object.user;
+ OWNER to postgres;
