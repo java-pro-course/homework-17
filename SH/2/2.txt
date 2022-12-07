@@ -1,0 +1,10 @@
+CREATE TABLE public.MyUser(
+	id serial,
+	name text,
+	surname text,
+	age bigint
+);
+
+insert into public.MyUser (id, name, surname, age) values (0, 'Svarog', 'Hacker', 14);
+
+select * from public.user;
